@@ -1,30 +1,12 @@
-# メモ
+# 概要
 
-- rails は初めから id を生成しているので、自ら作ってはだめだ
-- rails db:create でデータベースを勝手に作ってくれる
-- mysql を使用したいのなら gem、database.yml を設定すればよい
+これは Rails の ToDo リストです。
+Heroku で運用し、REST ful API で実装しています。
 
-# README
+# API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://todolist-restapi-rails.herokuapp.com/api/v1/todos
 
-Things you may want to cover:
+# 実装方法
 
-- Ruby version
-
-- System dependencies
-
-- Configuration
-
-- Database creation
-
-- Database initialization
-
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
+postman やフロントエンドの ajax で更新してください。
