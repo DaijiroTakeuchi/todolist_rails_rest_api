@@ -41,3 +41,4 @@ gem 'mysql2'
 gem 'dotenv-rails'
 
 gem 'rails_12factor'
+gem 'rack-cors'
