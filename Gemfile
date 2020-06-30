@@ -42,3 +42,6 @@ gem 'dotenv-rails'
 
 gem 'rails_12factor'
 gem 'rack-cors'
+
+// For security alert
+gem "actionpack", ">= 6.0.3.2"
