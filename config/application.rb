@@ -40,7 +40,7 @@ module TodoListRails
         origins "*"
         resource "*",
           headers: :any,
-          methods: [:get, :post, :options, :head]
+          methods: [:get, :post, :put, :patch, :delete, :options, :head]
       end
     end
   end
